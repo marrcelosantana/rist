@@ -21,4 +21,27 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button{
     font: 400 1rem Inter, sans-serif;
   }
+
+  [disabled]{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  button{
+    cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover{
+      opacity: 0.9;
+    }
+
+    &:disabled {
+      background-color: ${({ theme }) => theme.COLORS.GRAY};
+    }
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
 `;
