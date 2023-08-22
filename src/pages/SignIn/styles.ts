@@ -52,4 +52,5 @@ export const Button = styled.button`
 export const ButtonText = styled.span`
   color: ${({ theme }) => theme.COLORS.WHITE};
   font-weight: 600;
+  font-size: 16px;
 `;

@@ -1,4 +1,5 @@
 import { Github } from "lucide-react";
+
 import {
   Button,
   ButtonText,
@@ -13,7 +14,7 @@ export function SignIn() {
   return (
     <Container>
       <Content>
-        <Title>Bem vindo ao Rist!</Title>
+        <Title>Bem-vindo ao Rist!</Title>
         <Divider />
 
         <SignInSection>
