@@ -1,4 +1,4 @@
-import { Search } from "lucide-react";
+import { LogOut, Search } from "lucide-react";
 import {
   Avatar,
   Button,
@@ -13,6 +13,7 @@ import {
   SearchSection,
   Subtitle,
   Title,
+  UserContainer,
 } from "./styles";
 
 export function Home() {
@@ -20,8 +21,12 @@ export function Home() {
     <Container>
       <Content>
         <ContentHeader>
-          <Avatar src="http://github.com/Dirlandia404.png" />
-          <Title>Olá, Dirlandia!</Title>
+          <UserContainer>
+            <Avatar src="http://github.com/Dirlandia404.png" />
+            <Title>Olá, Dirlandia!</Title>
+          </UserContainer>
+
+          <LogOut size={24} color="#555" />
         </ContentHeader>
 
         <Divider />

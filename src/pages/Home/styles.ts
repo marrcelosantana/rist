@@ -21,8 +21,14 @@ export const ContentHeader = styled.header`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0 24px;
+`;
+
+export const UserContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 `;
 
