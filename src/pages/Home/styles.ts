@@ -38,10 +38,11 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: ${({ theme }) => theme.COLORS.SUBTITLE};
   text-align: center;
+  margin-top: 42px;
 `;
 
 export const Divider = styled.div`
